@@ -1,0 +1,28 @@
+{
+  "name": "js211_address_axios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slyssy/JS211_Address_Axios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slyssy/JS211_Address_Axios/issues"
+  },
+  "homepage": "https://github.com/Slyssy/JS211_Address_Axios#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "mocha-axios": "^1.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
