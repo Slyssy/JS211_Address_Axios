@@ -44,9 +44,7 @@ const displayContacts = (array) => {
   });
 };
 
-// getAddress();
-
-// tests
+// %%%%%%%%%%%%%%% Start Test Section %%%%%%%%%%%%%%%
 if (typeof describe === 'function') {
   describe('getAddress()', () => {
     it('should fetch 2 users properly', async () => {
@@ -96,27 +94,4 @@ if (typeof describe === 'function') {
       );
     });
   });
-
-  // it('should add users to my address book', async () => {
-  //   await fetch('https://randomuser.me/api/?results=20').then((res) => {
-  //     if (!res.ok) {
-  //       throw Error('Error');
-  //     }
-  //     return res.json().then((data) => {
-  //       const displayUsers = data.results.map((person) => {
-  //         addressBook = data.results;
-  //       });
-  //       assert.equal(addressBook.length, 20);
-  //     });
-  //   });
-  // });
-  // it('should show extra data on button click', () => {
-  //   moreInfo = () => {
-  //     let elems = document.getElementsByClassName('getInfo');
-  //     while (elems.length > 0) {
-  //       elems[0].classList.remove('getInfo');
-  //     }
-  //     assert.equal(elems.classList, none);
-  //   };
-  // });
 }
